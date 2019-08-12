@@ -1,9 +1,7 @@
-package com.learnwebservices.hello;
+package com.learnwebservices.services.hello;
 
 import com.learnwebservices.services.hello.HelloEndpoint;
 import com.learnwebservices.services.hello.HelloEndpointService;
-import com.learnwebservices.services.hello.HelloRequest;
-import com.learnwebservices.services.hello.HelloResponse;
 
 import java.net.MalformedURLException;
 import java.net.URL;
