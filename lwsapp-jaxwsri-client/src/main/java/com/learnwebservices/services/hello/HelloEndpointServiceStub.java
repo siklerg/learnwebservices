@@ -4,7 +4,7 @@
  * This file was auto-generated from WSDL
  * by the Apache Axis2 version: 1.7.9  Built on : Nov 16, 2018 (12:05:37 GMT)
  */
-package helloWS;
+package com.learnwebservices.services.hello;
 
 
 /*
@@ -250,8 +250,8 @@ public class HelloEndpointServiceStub extends org.apache.axis2.client.Stub {
      * @param sayHello0
      */
     public void startsayHello(
-        com.learnwebservices.services.hello.SayHello sayHello0,
-        final helloWS.HelloEndpointServiceCallbackHandler callback)
+            com.learnwebservices.services.hello.SayHello sayHello0,
+            final HelloEndpointServiceCallbackHandler callback)
         throws java.rmi.RemoteException {
         org.apache.axis2.client.OperationClient _operationClient = _serviceClient.createClient(_operations[0].getName());
         _operationClient.getOptions()
